@@ -13,24 +13,24 @@ body,html{
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-
+background-attachment:fixed;}
 /*
 fixed = parallax
 scroll = normal
 */
-background-attachment:fixed;
-}
-.pimg1{
-    back-image:url('images/img1.jpg');
+
+.pimg1 {
+    background-image:url(img/img1.jpeg);
     min-height:100%;
 }
-.pimg2{
-    background-image:url('images/img2.jpg');
-    min-height: 400px;
-}
-.pimg3{
-    background-image:url('imags/img3.jpg');
+.pimg2 {
+    background-image: url(img/img2.jpeg);
     min-height:400px;
+}
+.pimg3 {
+    background-image: url(img/img3.jpeg);
+    min-height:400px;
+}
 }
 section{
     text-align:center;
